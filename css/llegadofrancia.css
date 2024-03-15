@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/denis.jpg);
+    background-size: cover;
+}
+
+h2 {
+    font-size: 28px;
+    background-color: blue;
+    color: white;
+}
+
+p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+    background-color: blue;
+    color: white;
+}
+
+button {
+    background-color: #EF4135; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #C60C30; 
+}

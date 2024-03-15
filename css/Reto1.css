@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/brzl\ \(2\).jpg);
+    background-size: cover;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #33cc33; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #28a745; 
+}
+
+.error-message {
+    text-align: center;
+    color: #cc0000;
+    background-color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.success-message {
+    color: #009933; 
+    font-weight: bold;
+    margin-top: 10px;
+}

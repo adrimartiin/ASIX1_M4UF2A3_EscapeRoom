@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; 
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Hace dos columnas del mismo ancho */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.alineacion{
+  
+    display: flex; 
+    flex-direction: column; /* Alineamos los elementos verticalmente */
+    justify-content: center; 
+    align-items: center; 
+}
+
+form label {
+    font-size: 16px;
+    color: #333;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #008000;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d00; 
+}
+
+
+img {
+    height: 600px;
+    width: 900px;
+    transform: rotate(270deg);
+}
+
+.error-message {
+    text-align: center;
+    color: #cc0000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+

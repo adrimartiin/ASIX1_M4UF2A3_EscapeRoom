@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/spain.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #cc0000; 
+    font-size: 36px;
+    margin-top: 0;
+
+}
+
+p {
+    text-align: center;
+    color: black; 
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: lightyellow;
+}
+
+input[type="number"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #cc0000; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #990000;
+}
+.error-message {
+    text-align: center;
+    color: #cc0000;
+    background-color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}

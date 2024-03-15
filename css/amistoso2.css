@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/italia.jpg);
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: #008000; 
+    background-color: lightblue;
+}
+
+p {
+    text-align: center;
+    color: #333; 
+    background-color: lightblue;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff; 
+    background-color: #008000; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d00; 
+}
+
+img {
+    width: 200px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
